@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.heading{
+    width: 100%;
+    box-shadow: 10px 10px 15px #fff;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.nota{
+    font-size: 15px;
+    color: black;
+}
+
+.disco{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.but{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+canvas{
+    margin-top: 30px;
+}

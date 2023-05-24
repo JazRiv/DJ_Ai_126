@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dj IA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <h2 class="btn btn-info heading">Aplicacion de musica con AI
+        <br>
+        <span class="nota"> Nota: Mueve tu mano derecha hacia arriba y abajo para aumentar o disminuir el volumen, 
+            mueve tu mano izquierda para aumentar o disminuir la velocidad.
+        </span>
+    </h2>
+
+    <div class="pull-right">
+        <img src="disk.gif" class="disco">
+        <br>
+        <button class="btn btn-danger" id="velocidad">Velocidad: 1</button>
+    </div>
+
+    <div class="pull-left">
+        <img src="disk.gif" class="disco">
+        <br>
+        <button class="btn btn-danger"  id="volumen">Volumen: 1</button>
+    </div>
+
+    <button class="btn btn-success but" onclick="reproducir()">Reproducir</button>
+    <br>
+    <button class="btn btn-danger but" onclick="detener()">Detener</button>
+    <br>
+
+    <script src="main.js"></script>
+</body>
+</html>
